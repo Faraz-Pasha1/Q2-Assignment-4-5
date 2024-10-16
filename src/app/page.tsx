@@ -9,7 +9,7 @@ import Blogcards from "./components/BlogCards";
 export default function Home() {
   return (
     <div>
-         <Header/>
+         
          <MainSection/>
          <Blogcards/>
     </div>

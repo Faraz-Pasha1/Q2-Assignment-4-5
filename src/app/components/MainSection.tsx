@@ -8,5 +8,6 @@ export default function MainSection () {
             <h3 className="main3rd">Visit to discover delicious recipes, expert tips,</h3>
             <h4 className="main4th">and the latest research in food and nutrition.</h4>
         </div>
+        
     )
 }
