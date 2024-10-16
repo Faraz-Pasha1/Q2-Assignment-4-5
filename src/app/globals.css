@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ body {
+  background-image: url('../app/public/images/background-image.jpg') ;
+  background-size: cover;
+  background-position: center;
+  
+ }
+
+/* for Header Section*/
+
+.header {
+  border: 2px solid rgb(197, 197, 197);
+  border-radius: 30px;
+  background-color: aqua;
+  opacity: 50%;
+  /* justify-content: space-between; */
+  margin-top:20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  }
+
+.title-Header {
+  text-align: left;
+  font-size: 30px;
+  margin-left: 45px;
+  font-weight: 400;
+}
+
+.header-Options{
+  display: flex;
+  gap: 70px;
+  font-size: 20px;
+  margin-left: 400px;
+  font-weight: 500;
+}
+
+
+/* for Main Section*/
+
+.mainSection{
+  color : white;
+  padding-left: 90px;
+  padding-top: 20px;
+  line-height: 1.3;
+}
+
+.main1st {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.main2nd {
+  font-size: 55px;
+  font-weight: 700;
+  color: rgb(231, 245, 32);
+}
+
+.main3rd{
+  font-size: 20px;
+  font-weight: 200;
+}
+.main4th {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+/* Blog CArds design*/
+
+.blogCardsMain {
+  border: 2px solid rgb(197, 197, 197);
+  margin-top:30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  height: 100%;
+  width:auto;
+  align-items: center;
+}
+
+.blogCards {
+    width:240px;
+    height: 310px;
+    background-color: aqua;
+    opacity: 70%;
+    border-radius: 20px;
+    box-shadow: egba(0,0,0,0) 0px , 4px , 12px;
+    padding: 15px;
+    margin: 10px;
+    transition-duration: 0.5s; /* content dhakeail rha hai*/
+    border: 3px solid white;
+    /* animation: golaGanda 1s ease-in 0s infinite forwards;  */
+}
+.blogCards:hover{
+  border: 2px solid red;
+  opacity: 100%;
+}
+
+.imageCard1{
+  width : 100%;
+  height: 130px;
+  background-image: url('../app/public/images/food-blog1.jpg') ;
+  background-size: cover;
+  background-position: center;
+  border-radius:15px;
+}
+.imageCard2{
+  width : 100%;
+  height: 130px;
+  background-image: url('../app/public/images/food-blog2.jpg') ;
+  background-size: cover;
+  background-position: center;
+  border-radius:15px;
+}
+.imageCard3{
+  width : 100%;
+  height: 130px;
+  background-image: url('../app/public/images/food-blog3.jpg') ;
+  background-size: cover;
+  background-position: center;
+  border-radius:15px;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.descrtipion {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.readMore {
+  width : 55%;
+  margin-top: 5px;
+  background-color: rgba(243, 255, 78, 0.925);
+  border: 1px solid rgb(0, 0, 0);
+  font-size:15px;
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  padding: 5px;
+  cursor: pointer;
+  
+}
+
+.readMore:hover{
+  color: rgb(7, 7, 22);
+  border: 1px solid pink;
+  transition-duration: 0.3s;
+}
